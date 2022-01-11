@@ -7,4 +7,39 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#eb5c5c</color>
+    <color name="colorPrimaryDark">#b32832</color>
+    <color name="colorAccent">#ff8e89</color>
+    <color name="gray">#f6f6f6</color>
+    <color name="facebook">#3a559f</color>
+    <color name="twitter">#50abf1</color>
+
+    <color name="light_red">#ECC0C0</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="off_white">#EEEEEE</color>
+    <color name="grey_dark">#676767</color>
+    <color name="grey_light">#929292</color>
+    <color name="golden">#E9BF32</color>
+    <color name="light_blue">#3A92DC</color>
+    <color name="light_grey">#e0e0e0</color>
+
+
+    <color name="blue_dark">#0064b7</color>
+    <color name="yellow_dark">#F2D008</color>
+    <color name="yellow">#F2D008</color>
+
+    <color name="arrow_Back">#FF000000</color>
+    <color name="blue">#1A2F82</color>
+    <color name="grey">#9DA4C2</color>
+
+    <color name="grey_background">#F6F5FB</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#E95353</color>
+    <color name="appbar_background">#FFFFFFFF</color>
 </resources>
