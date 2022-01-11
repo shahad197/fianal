@@ -31,8 +31,6 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.tasks.Task
 import com.shahed.firebace.R
 import com.shahed.firebace.databinding.FragmentLocationBinding
-import com.shahed.firebace.utils.hide
-import com.shahed.firebace.utils.show
 import java.io.IOException
 import java.util.*
 
@@ -249,5 +247,13 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         } catch (e: IOException) {
             e.printStackTrace()
         }
+    }
+
+    fun View.show() {
+        visibility = View.VISIBLE
+    }
+
+    fun View.hide() {
+        visibility = View.GONE
     }
 }

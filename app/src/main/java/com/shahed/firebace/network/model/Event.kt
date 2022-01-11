@@ -22,19 +22,17 @@ data class Event(
     var lat: String? = null,
     @SerializedName("lng")
     var lng: String? = null,
-    @SerializedName("rateList")
-    var rateList: MutableList<Rate>? = ArrayList(),
+    @SerializedName("userdetailList")
+    var userdetailList: MutableList<userdetail>? = ArrayList(),
 ) : Serializable {
-    data class Rate(
+    data class userdetail(
         @SerializedName("id")
         var id: String? = null,
         @SerializedName("userName")
         var userName: String? = null,
-        @SerializedName("comment")
-        var comment: String? = null,
-        @SerializedName("rating")
-        var rating: String? = "0",
-    )
+
+
+        )
 }
 
 
