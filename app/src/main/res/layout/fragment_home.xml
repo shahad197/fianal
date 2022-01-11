@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/light_blue_A200"
+            android:padding="@dimen/_8sdp"
+            android:text="sport events"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <Button
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/light_blue_A200"
+            android:padding="@dimen/_8sdp"
+            android:text="music events"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <Button
+            android:id="@+id/arts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/light_blue_A200"
+            android:padding="@dimen/_8sdp"
+            android:text="Arts events"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/light_blue_A200"
+            android:padding="@dimen/_8sdp"
+            android:text="history"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+
+        <Button
+            android:id="@+id/btn_add_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"
+            android:text="@string/add_event" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/logout"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/_16sdp"
+        android:text="profile" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/_16sdp"
+        android:text="Logout" />
+</RelativeLayout>
