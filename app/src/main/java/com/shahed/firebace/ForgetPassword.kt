@@ -38,7 +38,7 @@ class ForgetPassword : AppCompatActivity() {
 
         etEmail = findViewById(R.id.et_email)
 
-        // To show back button in actionbar
+        // To show  button in actionbar
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
