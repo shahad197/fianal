@@ -1,18 +1,23 @@
 <resources>
     <string name="app_name">Events tickets</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="email">email</string>
     <string name="password">password</string>
-    <string name="login">login</string>
+    <string name="login">Login</string>
     <string name="register">register</string>
+    <string name="registeruser">Register User</string>
+    <string name="registerc">Register Company</string>
     <string name="confirm_password">confirm_password</string>
     <string name="username">username</string>
+    <string name="usernamec">Name Company</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="comment">comment</string>
     <string name="fllowers">fllowers</string>
     <string name="name">name</string>
-    <string name="large_text">
+    <string name="title_dialog_del" translatable="false">Confirm Deletet</string>
+    <string name="agreedelete" translatable="false">"Confirm ?</string>
+    <string name="large_text" translatable="false">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -103,6 +108,35 @@
     </string>
     <string name="add_event">Add event</string>
     <string name="confirm">Confirm</string>
-    <string name="default_notification_channel_id">123456</string>
+    <string name="default_notification_channel_id" translatable="false">123456</string>
+    <string name="start_text_1">Where \ndo you \ngo out?</string>
+    <string name="start_text_2">We\'ll show you what\'s good near you</string>
+    <string name="current_location">Use my current location</string>
+    <string name="skip">Skip</string>
+    <string name="pick_a_city">Pick a city</string>
+    <string name="address">Address Company</string>
+    <string name="evee">Events</string>
+    <string name="ress">Reservation</string>
+    <string name="cats">Categories</string>
+    <string name="f">Welcome To Control Panel Company :</string>
+    <string name="lotout">Logout</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_location">select Location</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="ap">AIzaSyCNr3NB1nRsOcvlRx5Gy7kukQtZt1i2S5g</string>
+    <string name="evees">Details Events</string>
+    <string name="eveess">Order Event Completed</string>
+    <string name="add_events">Edit event</string>
+    <string name="confirms">Update</string>
+    <string name="registeri">Register User</string>
+    <string name="short_list_event_message">Shortlist your favorite events so you don\'t miss out</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="forgot_password">I forgot my password ?</string>
+    <string name="email_sent_alert">Check your email!</string>
+    <string name="email_sent_message">We just sent you an email with a link to reset\nyour password </string>
+    <string name="see_more">See more</string>
+    <string name="enter_donation">Enter donation</string>
+    <string name="ended">Ended</string>
 
 </resources>

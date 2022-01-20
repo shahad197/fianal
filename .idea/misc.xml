@@ -3,8 +3,73 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/4639312_business_categories_finance_marketing_multi_level_marketing_icon.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/cate.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/eventssss.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/ic_baseline_image_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/ic_location_pin.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/ic_location_world.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/logout.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/rectangle_curved.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/drawable/reseveeee.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activit_events.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_add_event.xml" value="0.15" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_categorie.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_details_event.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_edit_event.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_my_events.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_order_done.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/autocomplete_place_item.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_event_details.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_intro.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_register_company.xml" value="0.13" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/item_cat.xml" value="0.14" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/item_cat_rd.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/fianall/app/src/main/res/layout/item_event.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activit_events.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_add_event.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_categorie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_details_event.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_edit_event.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_main3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_maps2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_my_events.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_order_done.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/autocomplete_place_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_add_event.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_event_details.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_events_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_intro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_register_company.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/fragment_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_card_events.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_cat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_cat_rd.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_empty_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_event.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/log_in_fragment2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/nafightion_par.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/profile_2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/layout/register_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/fianall/app/src/main/res/menu/menu_bottom.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/fireBace/app/src/main/res/drawable/my_naf.xml" value="0.18518518518518517" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/fireBace/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/fireBace/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
@@ -22,7 +87,7 @@
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

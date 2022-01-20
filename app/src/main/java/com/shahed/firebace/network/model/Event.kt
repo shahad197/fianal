@@ -22,6 +22,8 @@ data class Event(
     var lat: String? = null,
     @SerializedName("lng")
     var lng: String? = null,
+    @SerializedName("userID")
+    var userID: String? = null,
     @SerializedName("userdetailList")
     var userdetailList: MutableList<userdetail>? = ArrayList(),
 ) : Serializable {

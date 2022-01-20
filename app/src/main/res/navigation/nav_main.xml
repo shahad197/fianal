@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav"
-    app:startDestination="@id/splashFragment">
+    app:startDestination="@id/introFragment">
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.shahed.firebace.views.LoginFragment"
@@ -23,12 +23,25 @@
             app:destination="@id/homeFragment" />
     </fragment>
     <fragment
+        android:id="@+id/registerCFragment"
+        android:name="com.shahed.firebace.views.RegisterCFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register_company">
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
         android:id="@+id/introFragment"
         android:name="com.shahed.firebace.views.IntroFragment"
         android:label="IntroFragment">
         <action
             android:id="@+id/action_introFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_registerCFragment"
+            app:destination="@id/registerCFragment" />
+
         <action
             android:id="@+id/action_introFragment_to_loginFragment"
             app:destination="@id/loginFragment" />

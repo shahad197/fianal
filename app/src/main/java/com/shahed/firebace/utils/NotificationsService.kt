@@ -29,7 +29,7 @@ class NotificationsService : FirebaseMessagingService() {
 
         }
 
-        //  int order_id=Integer.parseInt(Objects.requireNonNull(remoteMessage.getData().get("order_id")));
+
         if (remoteMessage.notification != null) {
 
             Log.d(TAG, "Message Notification Body: " + remoteMessage.notification?.body)
@@ -57,14 +57,7 @@ class NotificationsService : FirebaseMessagingService() {
         intent.putExtra("fcm", true)
         intent.flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
 
-//        Uri uri = Uri.parse(String.valueOf(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)));
-//        intent.setDataAndType(uri, "*/*");
-//        val alarmSound: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
 
-        //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//        val stackBuilder = TaskStackBuilder.create(applicationContext)
-        //        stackBuilder.addParentStack(HomeActivity.class);
-//        stackBuilder.addNextIntentWithParentStack(intent)
         val pendingIntent: PendingIntent = PendingIntent.getActivity(
             this,
             requestID,
@@ -107,8 +100,12 @@ class NotificationsService : FirebaseMessagingService() {
     override fun onNewToken(token: String) {
         super.onNewToken(token)
         val mPrefs =
-            applicationContext.getSharedPreferences(AppConstants.PREF_NAME, Context.MODE_PRIVATE)
+            applicationContext.getSharedPreferences(
+                AppConstants
+                    .PREF_NAME, Context.MODE_PRIVATE
+            )
         mPrefs.edit().putString("PREF_KEY_TOKEN", token).apply()
+        Log.e("PREF_KEY_TOKEN", token)
     }
 
     override fun onDeletedMessages() {

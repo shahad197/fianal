@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +10,65 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/btn_add_place2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/eventssss"></ImageView>
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/evee"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_add_place3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/cate"></ImageView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cats"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
 
         <Button
             android:id="@+id/sports"
@@ -21,7 +79,8 @@
             android:padding="@dimen/_8sdp"
             android:text="sport events"
             android:textColor="@color/black"
-            android:textSize="@dimen/_16sdp" />
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/music"
@@ -32,7 +91,8 @@
             android:padding="@dimen/_8sdp"
             android:text="music events"
             android:textColor="@color/black"
-            android:textSize="@dimen/_16sdp" />
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/arts"
@@ -43,7 +103,8 @@
             android:padding="@dimen/_8sdp"
             android:text="Arts events"
             android:textColor="@color/black"
-            android:textSize="@dimen/_16sdp" />
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/history"
@@ -54,7 +115,8 @@
             android:padding="@dimen/_8sdp"
             android:text="history"
             android:textColor="@color/black"
-            android:textSize="@dimen/_16sdp" />
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
 
 
         <Button
@@ -63,26 +125,103 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_margin="16dp"
-            android:text="@string/add_event" />
+            android:text="@string/add_event"
+            android:visibility="gone" />
 
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/profile"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/logout"
-        android:layout_gravity="bottom"
-        android:layout_margin="@dimen/_16sdp"
-        android:text="profile" />
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
 
-    <Button
+        <LinearLayout
+            android:id="@+id/btn_add_place4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/reseveeee"></ImageView>
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ress"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/priofie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/profileee"></ImageView>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_margin="@dimen/_16sdp"
-        android:text="Logout" />
-</RelativeLayout>
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_64sdp"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:layout_marginRight="@dimen/_64sdp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/logout"></ImageView>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lotout"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

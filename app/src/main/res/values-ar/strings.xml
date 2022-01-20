@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Events tickets</string>
+    <string name="email">ايميل</string>
+    <string name="password">الرقم السري</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="registeruser">تسجيل عميل</string>
+    <string name="registerc">تسجيل شركة</string>
+    <string name="confirm_password">تأكيد</string>
+    <string name="username">الاسم</string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="comment">تعليق</string>
+    <string name="fllowers">متابعين</string>
+    <string name="name">الاسم</string>
+    <string name="add_event">اضافة فعالية</string>
+    <string name="confirm">تأكيد</string>
+    <string name="start_text_1">Where \ndo you \ngo out?</string>
+    <string name="start_text_2">We\'ll show you what\'s good near you</string>
+    <string name="current_location">Use my current location</string>
+    <string name="skip">Skip</string>
+    <string name="pick_a_city">Pick a city</string>
+    <string name="register">تسجيل</string>
+    <string name="usernamec">اسم الشركة</string>
+    <string name="address">عنوان الشركة</string>
+    <string name="f">مرحباً بك في لوحة تحكم الشركة :</string>
+    <string name="evee">الاحداث</string>
+    <string name="ress">الحجوزات</string>
+    <string name="cats">التصنيفات</string>
+    <string name="lotout">تسجيل الخروج</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="select_location">حدد المكان</string>
+    <string name="ap">AIzaSyCNr3NB1nRsOcvlRx5Gy7kukQtZt1i2S5g</string>
+    <string name="evees">تفاصيل الحدث</string>
+    <string name="eveess">حجز الحدث</string>
+    <string name="add_events">تحديث الحدث</string>
+    <string name="confirms">تحديث</string>
+    <string name="short_list_event_message">لا تفوت الاحداث القريبة منك والحجز بها اونلاين</string>
+    <string name="skip_for_now">تخطي الان</string>
+    <string name="registeri">نسجيل عميل</string>
+
+    <string name="forgot_password">لقد نسيت كلمة المرور ؟</string>
+    <string name="email_sent_alert">Check your email!</string>
+    <string name="email_sent_message">We just sent you an email with a link to reset\nyour password </string>
+    <string name="see_more">عرض المزيد</string>
+    <string name="enter_donation">ادخل الايداع</string>
+    <string name="ended">Ended</string>
+
+</resources>

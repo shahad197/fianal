@@ -11,6 +11,10 @@ data class User(
     var email: String? = null,
     @SerializedName("imageUrl")
     var imageUrl: String? = null,
-    @SerializedName("imageUrl")
+    @SerializedName("userType")
+    var userType: String? = null,
+    @SerializedName("Address")
+    var Address: String? = null,
+    @SerializedName("events")
     var events: MutableList<Event>? = ArrayList(),
 )

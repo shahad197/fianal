@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/allEventsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_medium"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/iv_event"
+                android:layout_width="@dimen/layout_margin_none"
+                android:layout_height="@dimen/layout_margin_none"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header"
+                app:layout_constraintDimensionRatio="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/shareFab"
+                android:layout_width="@dimen/fab_width"
+                android:layout_height="@dimen/fab_height"
+                android:layout_marginEnd="@dimen/fab_margin_80dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_event"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_event"
+                app:srcCompat="@drawable/ic_share_grey">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_grey"
+                    app:tint="@color/white"></ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/favoriteFab"
+                android:layout_width="@dimen/fab_width"
+                android:layout_height="@dimen/fab_height"
+                android:layout_marginEnd="@dimen/fab_margin_right"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                app:elevation="@dimen/fab_elevation"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_event"
+                app:layout_constraintEnd_toEndOf="@+id/iv_event"
+                app:layout_constraintTop_toBottomOf="@+id/iv_event"
+                app:srcCompat="@drawable/ic_baseline_favorite_border">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_favorite_border"
+                    app:tint="@color/white"></ImageView>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/event_id"
+                android:layout_width="@dimen/text_size_very_large"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/layout_margin_small"
+                android:layout_marginTop="@dimen/layout_margin_extra_small"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintStart_toStartOf="@+id/iv_event"
+                app:layout_constraintTop_toTopOf="@+id/tv_title"
+                tools:text="Jan" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/event_id"
+                app:layout_constraintStart_toStartOf="@+id/event_id"
+                app:layout_constraintTop_toBottomOf="@+id/event_id"
+                tools:text="15" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="@dimen/layout_margin_none"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/layout_margin_medium"
+                android:layout_marginLeft="@dimen/layout_margin_medium"
+                android:layout_marginEnd="@dimen/layout_margin_medium"
+                android:layout_marginRight="@dimen/layout_margin_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/heading_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/event_id"
+                app:layout_constraintTop_toBottomOf="@+id/shareFab"
+                tools:text="Open Source Meetup" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="@dimen/layout_margin_none"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_small"
+                android:layout_marginEnd="@dimen/layout_margin_medium"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
+                tools:text="Jaipur, Rajasthan, India" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipTags"
+                android:layout_width="@dimen/layout_margin_none"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin_small"
+                android:layout_marginEnd="@dimen/layout_margin_medium"
+                android:layout_marginBottom="@dimen/layout_margin_extra_large"
+                app:chipSpacingHorizontal="4dp"
+                app:chipSpacingVertical="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_description"></com.google.android.material.chip.ChipGroup>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_baseline_delete_24"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

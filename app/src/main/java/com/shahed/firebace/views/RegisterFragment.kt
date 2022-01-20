@@ -2,6 +2,7 @@ package com.shahed.firebace.views
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.graphics.Typeface
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -19,6 +20,9 @@ import com.google.firebase.ktx.Firebase
 import com.shahed.firebace.databinding.FragmentRegisterBinding
 import com.shahed.firebace.network.model.User
 import com.shahed.firebace.utils.AppConstants
+import androidx.annotation.NonNull
+
+import com.google.android.gms.tasks.OnCompleteListener
 
 
 private const val TAG = "RegisterFragment"
@@ -49,7 +53,8 @@ class RegisterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        val type = Typeface.createFromAsset(activity!!.getAssets(), "fonts/Exo-Regular.ttf")
+        binding.texttitle.setTypeface(type)
         binding.regBtn.setOnClickListener {
             val email = binding.emailEt.text.toString()
             val password = binding.passRe.text.toString()
@@ -65,6 +70,7 @@ class RegisterFragment : Fragment() {
 
                     val user = User(
                         userName = userName, email = email,
+                        userType = "User",
                         id = Firebase.auth.currentUser?.uid
                     )
 
@@ -93,7 +99,7 @@ class RegisterFragment : Fragment() {
                     Log.e(TAG, "there was something wrong", task.exception)
                     Toast.makeText(
                         requireActivity(),
-                        "there was something wrong",
+                        "Email Already Exist !",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
@@ -114,6 +120,14 @@ class RegisterFragment : Fragment() {
                     Log.d(TAG, "User profile updated.")
                 }
             }
+    }
+
+    private fun checkAccountEmailExistInFirebase(email: String): Boolean {
+        val b = BooleanArray(1)
+        Firebase.auth.fetchSignInMethodsForEmail(email).addOnSuccessListener {
+            b[0] = true
+        }
+        return b[0];
     }
 }
 
